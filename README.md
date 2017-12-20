@@ -12,7 +12,7 @@ After receiving new data, this file will then send serial data through USB using
 4.  Build and compile the RaceTelemetry solution.
 5.  Run the program, and open an F1 2017 session.
 
-![Arduino Pro Micro diagram](arduino_diagram.jpeg)
+![Arduino Pro Micro diagram](arduino_diagram.jpg)
 
 # Environment
 The RaceTelemetry solution was created in Visual Studio 2017 RC (v141 toolset) on Windows 10, hence Winsock.h was the primary library for creating the server.
