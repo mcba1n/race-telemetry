@@ -1,6 +1,8 @@
 # RaceTelemetry
 Interface an Adafruit NeoPixel Strip and a 7 Segment Display with F1 2017 to display the rev limiter and current gear of the car using an Arduino Pro Micro.
 
+![Display](display.jpg)
+
 # Project files
 RaceTelemetry.cpp is the main project file which creates a UDP server to receive data from the UDP client in the F1 2017 racing game.
 After receiving new data, this file will then send serial data through USB using the SerialPort.h library to the Arduino with RaceTelemetry.ino uploaded.
